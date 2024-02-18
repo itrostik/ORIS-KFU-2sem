@@ -1,4 +1,4 @@
-package com.solncev.config;
+package ru.kpfu.itis.sergeev.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import javax.servlet.ServletRegistration;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.solncev"})
+@ComponentScan(basePackages = {"ru.kpfu.itis.sergeev"})
 public class WebAppConfig implements WebApplicationInitializer {
 
     @Override

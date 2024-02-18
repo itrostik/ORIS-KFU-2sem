@@ -7,10 +7,10 @@ plugins {
 }
 
 application {
-    mainClass = "com.solncev.Main"
+    mainClass = "ru.kpfu.itis.sergeev.Main"
 }
 
-group = "com.solncev"
+group = "ru.kpfu.itis.sergeev"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -20,6 +20,7 @@ repositories {
 dependencies {
     implementation("org.springframework:spring-webmvc:${properties["springVersion"]}")
     implementation("org.apache.tomcat.embed:tomcat-embed-jasper:${properties["tomcatVersion"]}")
+    implementation("org.json:json:20240205")
 }
 
 tasks.withType<ShadowJar> {

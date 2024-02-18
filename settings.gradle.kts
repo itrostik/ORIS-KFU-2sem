@@ -1,2 +1,2 @@
-rootProject.name = "itis-11-201-sem2"
+rootProject.name = "ORIS-KFU-2sem"
 
